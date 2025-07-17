@@ -1,5 +1,5 @@
-              <!------------------------------ META KEYWORDS ------------------------------>
-              <!---------- HTML Keywords Case Insensitive; Literal Text not ---------->
+    <!------------------------------ META TAGS ------------------------------>
+    <!---------- HTML Tags Case Insensitive; Literal Text not ---------->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +15,10 @@
 
 
 
-    <hr> <!------------------------------ ESSENTIAL KEYWORDS ------------------------------>
+
+
+    <!------------------------------ ESSENTIAL TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
     <!---------------------------------------- ---------------------------------------->
     <hgroup style = "color:blue">
     <h1> Heading #1📦नमस्ते </h1>
@@ -36,7 +39,10 @@
 
 
 
-    <hr> <!------------------------------ MULTIMEDIA KEYWORDS ------------------------------>
+
+
+    <!------------------------------ MULTIMEDIA TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
     <!---------------------------------------- ---------------------------------------->
     <a href = "https://www.github.com/RohanRV"> Not working in live preview, working in Live Server </a>
     <br/> <a href = "Rohans/Rohan.html" target = "_main"> New Tab </a>
@@ -47,47 +53,47 @@
     <br/> <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_target" target = "_main"> Example </a>
 
     <br/> <img src = "https://4.img-dpreview.com/files/p/E~TS1180x0~articles/3925134721/0266554465.jpeg" alt = "Link fails" height = "70"> </img>
-    <img src = "Rohans/book.jpg" alt = "alternate" height = "70"> </img>
+    <img src = "Rohans/book.jpg" alt = "alternate" height = "70" usemap = "#a"> </img>
+    <map name = "a"> <area shape = "circle" coords = "50,35,30" href = "https://media.geeksforgeeks.org/wp-content/uploads/20190227165934/area3.png" alt = "Circle"> </map>
     <video src = "Rohans/design.mp4" height = "70" controls muted>
     <track src = "Rohans/sample.vtt" kind = "subtitles" label = "Rohan" default> </video>
     <audio src = "Rohans/music.mp3" controls autoplay muted> </audio>
     <bgsound src = "Rohans/background.mp3"/>
     <figure> Figure <figcaption> Caption </figcaption> </figure>
     <source> Source </source>
+    <object data = "Rohans/design.mp4" > Obj <param name = "muted" value = "false"> </object>
 
 
 
-    <hr> <!------------------------------ FORMATTING KEYWORDS ------------------------------>
+
+
+    <!------------------------------ FORMATTING TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
     <!---------------------------------------- ---------------------------------------->
     <br> <b> Bold </b> <strong> Bold </strong>
-    <br> <i> Italics </i> <em> Italics </em> <var> Italics </var>
+    <br> <i> Italics </i> <em> Italics </em> <var> Italics </var> <dfn> Italics </dfn> <cite> Italics </cite> <address> Italics </address>
     <br> <u> Underline </u> <ins> Underline </ins>
     <br> <strike> Strike </strike> <s> Strike </s> <del> Strike </del>
-    <br> <code> Mono </code> <kbd> Mono </kbd> <samp> Mono </samp> <tt> Mono </tt>
+    <br> <code> Mono </code> <kbd> Mono </kbd> <samp> Mono </samp> <tt> Mono </tt> <xmp> Mono </xmp>
     <br> <sub> Sub </sub> <sup> Super </sup> <mark> Highlight </mark>
-    <br> <big> BIG </big> <small> small </small>
-    <br> <center> Center </center>
-
-
-
-    <hr> <!------------------------------ QUOTATION KEYWORDS ------------------------------>
-    <!---------------------------------------- ---------------------------------------->
+    <br> <big> BIG </big> <small> small </small> <font color = "red"> Font </font> <center> Center </center>
     <br> <q> Quote </q> <blockquote> Block </blockquote>
     <br> <abbr> Abbreviation </abbr> <acronym> Acronym </acronym>
-    <br> <address> Address </address> <cite> Cite </cite>
-    <br> <bdi> BDI </bdi> <bdo> BDO </bdo>
-    <xmp> XMP </xmp> <dfn> Definition </dfn>
+    <br> <bdi> BDI </bdi> <bdo dir = "rtl"> BDO </bdo>
 
 
 
-    <hr> <!------------------------------ LIST KEYWORDS ------------------------------>
+
+
+    <!------------------------------ LIST, MENU, DESCRIPTION, & DIRECTORY TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
     <!---------- 1 for num, i I for Roman, a A for ABCD; disc, square, circle ---------->
     <ul> Rohan's Unordered List
         <li type = "disc"> First </li>
         <li type = "square"> Second </li>
         <li type = "circle"> Third </li>
         <ol type = "i"> <li value = "4"> Rohan's </li> <li> Ordered Sublist </li> </ol>
-   </ul>
+    </ul>
        
     <menu> Rohan's Menu List (same as UL, but Title is not indented)
         <li> First </li>
@@ -100,9 +106,16 @@
         <dt> 2nd </dt> <dd> desc2 </dd>
    </dl>
 
+    <dir> Rohan's Directory List
+        <li> 1st </li>
+    </dir>
 
 
-    <hr> <!------------------------------ TABLE KEYWORDS ------------------------------>
+
+
+
+    <!------------------------------ TABLE TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
     <!---------------------------------------- ---------------------------------------->
     <table> Rohan's Table
         <caption> Rohan's Table </caption>
@@ -114,61 +127,47 @@
 
 
 
-    <hr> <!------------------------------ FORM KEYWORDS ----------------------------->
+
+
+    <!------------------------------ FORM TAGS ----------------------------->
+    <hr style="height: 5px; background: #000;">
     <!---------------------------------------- ---------------------------------------->
-    <form> Rohan's Form
-        <fieldset> <legend> Field Set 01 </legend>
+    <form oninput = "z.value = x.value * y.value"> Rohan's Form <br>
+        <fieldset style="display: inline-block;"> <legend> Field Set 01 </legend>
             <br> <input type = "text"> Text
             <br> <input type = "password"> Password
-            <br> <input type = "Number"> Number
+            <br> <input type = "Number" id = "x"> Number
             <br> <input type = "EMail"> E-Mail
             <br> <input type = "checkbox"> Checkbox
             <br> <input type = "radio"> Radio
         </fieldset>
 
-        <fieldset> <legend> Field Set 02 </legend>
+        <fieldset style="display: inline-block;"> <legend> Field Set 02 </legend>
             <br> <input type = "Color"> Color
             <br> <input type = "Date"> Date
             <br> <input type = "Range"> Range
         </fieldset>
 
-        <fieldset> <legend> Field Set 03 </legend>
+        <fieldset style="display: inline-block;"> <legend> Field Set 03 </legend>
             <br> <select> <optgroup label = "A"> <option> Option </option> </optgroup> </select>
-            <br> <input list = "List"> <datalist id = "List"> <option value = "1"> </option> </datalist>
+            <br> <input list = "List" id = "y"> <datalist id = "List"> <option value = "1"> </option> </datalist>
             <br> <input type = "File"> File
             <br> <input type = "Button" value = "Button"> Button
+            <keygen name = "Rohan_HTML_Key">
             <br> <input type = "Submit"> Submit
         </fieldset>
 
         <input type = "Hidden"> Hidden
         <input type = "Image"> Image
+        <output id = "z"> 0 </output>
     </form>
 
 
 
-    <hr> <!------------------------------ SECTIONAL KEYWORDS ------------------------------>
-    <!---------------------------------------- ---------------------------------------->
-    <div> Rohan's Div </div>
-    <span> Rohan's Span </span>
-    <header> Rohan's Header </header>
-    <main> Rohan's Main </main>
-    <footer> Rohan's Footer </footer>
-    <section> Rohan's Section </section>
-    <article> Rohan's Article </article>
-    <aside> Rohan's Aside </aside>
 
 
-
-    <hr> <!------------------------------ CODING KEYWORDS ------------------------------>
-    <!---------------------------------------- ---------------------------------------->
-    <ruby> Ruby </ruby>
-    <rp> Parentheses </rp>
-    <rt> Text </rt>
-    <applet> Rohan01 </applet>
-
-
-
-    <hr> <!------------------------------ DRAWING KEYWORDS ------------------------------>
+    <!------------------------------ DRAWING TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
     <!---------------------------------------- ---------------------------------------->
     <canvas height = "40" width = "40" id = "1"> not supported </canvas>
     <script>
@@ -180,39 +179,90 @@
 
 
 
-    <hr> <!------------------------------ DYNAMIC KEYWORDS ------------------------------>
+
+
+    <!------------------------------ DYNAMIC TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
     <!---------------------------------------- ---------------------------------------->
     <button> Button </button>
     <details> <summary> Summary </summary> Details </details>
+    <dialog open> Dialog </dialog>
     <marquee> Marquee </marquee>
     <progress value = "50" max = 100> Progress </progress>
     <meter value = "08", min = "00", max = "10" high = "07" low = "03"> Meter </meter>
-    <dialog open> Dialog </dialog>
+    
+    
 
 
-
-    <hr> <!------------------------------ EXTRA KEYWORDS ------------------------------>
+    
+    <!------------------------------ NON-SEMANTIC LAYOUT TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
     <!---------------------------------------- ---------------------------------------->
-    <br> <area> Rohan02 </area>
-    <br> <basefont color = "red"> Rohan03 </basefont>
-    <br> <data> Rohan09 </data>
-    <br> <dir> Rohan12 </dir>
-    <br> <font> Rohan19 </font>
-    <br> <isindex> Rohan25 </isindex>
-    <br> <keygen> Rohan26 </keygen>
-    <br> <nav> Rohan33 </nav>
-    <br> <object> Rohan36 </object>
-    <br> <output> Rohan37 </output>
-    <br> <param> Rohan38 </param>
-    <br> <spacer> Rohan41 </spacer>
+    <div> Rohan's Div </div>
+    <span> Rohan's Span </span>
 
-    <br> <embed> Rohan15 </embed>
-    <br> <noembed> Rohan35 </noembed>    <br> <frame> Rohan21 </frame>
-    <br> <frameset> Rohan22 </frameset>
-    <br> <iframe> Rohan24 </iframe>
+
+
+
+
+    <!------------------------------ SEMANTIC SECTIONAL TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
+    <!---------------------------------------- ---------------------------------------->
+    <header> Rohan's Header </header>
+    <nav> Rohan's Nav </nav>
+    <main> Rohan's Main </main>
+    <section> Rohan's Section </section>
+    <article> Rohan's Article </article>
+    <aside> Rohan's Aside </aside>
+    <footer> Rohan's Footer </footer>
+
+
+
+
+
+    <!------------------------------ EMBEDDING TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
+    <!---------------------------------------- ---------------------------------------->
+    <frameset> <frame src = "Rohans/index.html"> Frame1 <frame src = "Rohans/index2.html"> Frame2 </frameset>
+    <br> <iframe src = "Rohans/index2.html" width = "400" title = "iFrame"> </iframe> <br>
+    <embed> Embed </embed>
+    <noembed> No Embed </noembed>
+
+
+
+
+
+    <!------------------------------ CODING TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
+    <!---------------------------------------- ---------------------------------------->
+    <ruby> Ruby </ruby>
+    <rp> Parentheses </rp>
+    <rt> Text </rt>
+    <applet> Applet </applet>
+    
+
+
+    
+
+    <!------------------------------ EXTRA TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
+    <!---------------------------------------- ---------------------------------------->
+    <spacer type = "vertical" size = "50"> Spacer </spacer>
+    <basefont color = "red"> BaseFont </basefont>
     rrrrrrrrrrrrrrrooooooooooohhhhh<wbr>hhhhhhhhaaaaaaaaaaannnnnnnnnnnnnnnrrrrrrrr<wbr>rrrrrrrooooooooooohhhhhhhhhhhhhaaaaaaaaaaannnnnnnnnnnnnnn
-    <nobr> rrrrrrrrrrrrrrrooooooooooohhhhhhhhhhhhhaaaaaaaaaaannnnnnnnnnnnnnnrrrrrrrrrrrrrrrooooooooooohhhhhhhhhhhhhaaaaaaaaaaannnnnnnnnnnnnnn </nobr>
-    <template> Rohan44 </template>
-    <time> Rohan46 </time> 
+    <nobr> rrrrrrrrrrrrrrrooooooooooohhhhhhhhhhhhhaaaaaaaaaaannnnnnnnnnnnnnnrrrrrrrrrrrrrrrooooooooooo </nobr>
+    <isindex prompt = "hello"> IsIndex </isindex>
+    <template> Template </template>
+    <time> Time </time>
+    <data> Data </data>
+    <slot> Slot </slot>
+    <picture> Picture </picture>
+    <portal> Portal </portal>
+    <shadow> Shadow </shadow>
+    <blink> Blink </blink>
+    <listing> Listing </listing>
+    <noframes> NoFrames </noframes>
+    <search> Search </search>
+    <plaintext> Plaintext </plaintext>
 </body>
 </html>
