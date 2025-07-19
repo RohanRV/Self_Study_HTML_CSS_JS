@@ -36,6 +36,8 @@
 
     <p> p tag    trims    whitespaces </p>
     <pre> pre formatted tag   doesn't    trim </pre>
+    <listing> Listing   acts as   Pre </listing>
+    <!-- <plaintext> -->
 
 
 
@@ -140,6 +142,7 @@
             <br> <input type = "EMail"> E-Mail
             <br> <input type = "checkbox"> Checkbox
             <br> <input type = "radio"> Radio
+            <br> <textarea> TextArea </textarea>
         </fieldset>
 
         <fieldset style="display: inline-block;"> <legend> Field Set 02 </legend>
@@ -149,7 +152,9 @@
         </fieldset>
 
         <fieldset style="display: inline-block;"> <legend> Field Set 03 </legend>
-            <br> <select> <optgroup label = "A"> <option> Option </option> </optgroup> </select>
+            <br> <select> <button> <selectedcontent style = "background-color: red"> </selectedcontent> </button>
+                    <optgroup label = "A"> <option> Option1 </option> <option> Option2 </option> </optgroup>
+                 </select>
             <br> <input list = "List" id = "y"> <datalist id = "List"> <option value = "1"> </option> </datalist>
             <br> <input type = "File"> File
             <br> <input type = "Button" value = "Button"> Button
@@ -225,6 +230,8 @@
     <!---------------------------------------- ---------------------------------------->
     <frameset> <frame src = "Rohans/index.html"> Frame1 <frame src = "Rohans/index2.html"> Frame2 </frameset>
     <br> <iframe src = "Rohans/index2.html" width = "400" title = "iFrame"> </iframe> <br>
+    <fencedframe src = "https://www.google.com"> FencedFrame </fencedframe>
+    <noframes> NoFrames </noframes>
     <embed> Embed </embed>
     <noembed> No Embed </noembed>
 
@@ -242,7 +249,40 @@
     
 
 
-    
+
+
+    <!------------------------------ MATH TAGS ------------------------------>
+    <hr style="height: 5px; background: #000;">
+    <!---------------------------------------- ---------------------------------------->    
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mspace width = "1em"/>
+        <mrow> <mphantom> <mi> M </mi> </mphantom> <mfrac> <mrow> <mi> MFrac </mi> </mrow> <mrow> <mn> MFrac </mn> </mrow> </mfrac> </mrow>
+        <mrow> <mphantom> <mi> P </mi> </mphantom> <mo> &#x00B1; </mo> <mroot> <mi> MRoot </mi> <mi> MRoot </mi> </mroot> </mrow>
+        <mrow> <mphantom> <mi> h </mi> </mphantom> <msqrt> <msup> <mn> MSqrt </mn> <mi> MSup </mi> </msup> <msub> <mi> MSqrt </mi> <mi> MSub </mi> </msub> </msqrt> </mrow>
+        <mrow> <mphantom> <mi> a </mi> </mphantom> <msubsup> <mi> MSubSup </mi> <mi> MSubSup </mi> <mi> MSubSup </mi> </msubsup> </mrow>
+    </math>
+    <math>
+        <mphantom> <mi> n </mi> </mphantom> <munder> <mi> MUnder </mi> <mtext> MUnder </mtext> </munder> <mover> <mtext> MOver </mtext> <mi> MOver </mi> </mover>
+        <mphantom> <mi> t </mi> </mphantom> <munderover> <mi> MUnderOver </mi> <mrow> <mi> MUnderOver </mi> </mrow> <mn> MUnderOver </mn> </munderover>
+        <mphantom> <mi> o </mi> </mphantom> <mstyle mathcolor = "red" mathsize = "1.5em"> <mi> Styled </mi> </mstyle> <merror> <mtext> Error </mtext> </merror>
+        <mphantom> <mi> m </mi> </mphantom> <mpadded height = "+3em" depth = "+1em" width = "+3em" lspace = "-1em"> <mi> Padded </mi> </mpadded>
+        <mphantom> <mi> . </mi> </mphantom> <menclose notation = "circle box"> <mi> MEnclose </mi> </menclose>
+    </math>
+    <math>
+        <mtable> <!-- Math Table Row (MTR) Math Table Data (MTD) -->
+            <mlabeledtr> <mtd> <mi> MLabeledTR </mi> </mtd> <mtd> <mi> MLabeledTR </mi> </mtd> </mlabeledtr>
+            <mtr> <mtd> <mtext> MTD1 </mtext> </mtd> <mtd> <mtext> MTD1 </mtext> </mtd> </mtr>
+            <mtr> <mtd> <mtext> MTD2 </mtext> </mtd> <mtd> <mtext> MTD2 </mtext> </mtd> </mtr>
+            <mtr> <maligngroup/> <mtd> <mtext> MT </mtext> <malignmark/> <mtext> D3 </mtext> </mtd> <mtd> <mi> MTD3 </mi> </mtd> </mtr>
+            <mtr> <maligngroup/> <mtd> <malignmark/> <mtext> MTD4 </mtext> </mtd> <mtd> <mtext> MTD4 </mtext> </mtd> </mtr>
+        </mtable>
+
+          <mglyph alt="smile" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_smiley_face.svg/32px-Flat_smiley_face.svg.png" width="20px" height="20px"/>
+      </math>
+
+      
+
+
 
     <!------------------------------ EXTRA TAGS ------------------------------>
     <hr style="height: 5px; background: #000;">
@@ -257,12 +297,11 @@
     <data> Data </data>
     <slot> Slot </slot>
     <picture> Picture </picture>
+    <image> Image </image>
     <portal> Portal </portal>
     <shadow> Shadow </shadow>
     <blink> Blink </blink>
-    <listing> Listing </listing>
-    <noframes> NoFrames </noframes>
     <search> Search </search>
-    <plaintext> Plaintext </plaintext>
+    <content> Content </content>
 </body>
 </html>
