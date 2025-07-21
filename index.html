@@ -1,11 +1,9 @@
     <!------------------------------ META TAGS ------------------------------>
     <!---------- HTML Tags Case Insensitive; Literal Text not ---------->
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset = "UTF-8" http-equiv = "X-UA-Compatible" content = "IE=edge" name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <title> Rohan's Website </title>
     <base href = "Rohans"/>?
     <style nonce = "nonce"> hr {height: 5px; background: #000;} </style>
@@ -297,15 +295,12 @@
     <!---------------------------------------- ---------------------------------------->
     <font id = "id" class = "class" title = "title" style = "color: violet" onclick = "fun1()"> (ID, Class, Title, Style) </font>
     <script nonce = "nonce"> function fun1() {
-        alert(document.getElementById("id").id);
-        alert(document.getElementsByClassName("class")[0].className);
-        alert(document.querySelector('[title = "title"]').title);
-        alert(document.querySelectorAll('[style*= "color: violet"]')[0].style.color); }
+        alert(document.getElementById("id").id + "\n" + document.getElementsByClassName("class")[0].className + "\n" + document.querySelector('[title = "title"]').title + "\n" + document.querySelectorAll('[style*= "color: violet"]')[0].style.color); }
     </script>
 
     <b inert> (Inert) </b>
     <i contenteditable = "true"> (Content Editable) </i>
-    <a draggable = "true"> (Draggable sans href) </a>
+    <a draggable = "true" dropzone="copy"> (Draggable sans href) </a>
     <s hidden = "true"> (Hidden) </s>
     <img src = "Rohans/book.jpg" width = "30" popover id = "popover">
         <button popovertarget = "popover"> (Popover Target) </button>
@@ -337,16 +332,35 @@
         <input type = "text" enterkeyhint = "send" placeholder = "Send">
     </form> <br>
 
-    <input type = "text" autocapitalize = "characters" placeholder = "Auto Capitalise">
+    <form>
+        <input type = "text" virtualkeyboardpolicy = "auto" placeholder = "Auto">
+        <input type = "text" virtualkeyboardpolicy = "manual" placeholder = "Manual">
+        <input type = "text" writingsuggestions = "true" placeholder = "True">
+        <input type = "text" writingsuggestions = "false" placeholder = "False">
+    </form> <br>
 
-    <font lang = "en"> (Lang En </font> <font lang = "fr"> Lang Fr </font> <a href = "https://www.w3schools.com/tags/ref_language_codes.asp"> Lang Code) </a>
+    <input type = "text" autocapitalize = "characters" placeholder = "Auto Capitalise">
+    <input type = "text" autocomplete = "on" placeholder = "Auto Complete">
+    <input type = "text" autocorrect = "on" placeholder = "Auto Correct">
+    <input type = "text" autofocus placeholder = "Auto Focus">
+
+    <font lang = "en"> (Lang En </font> <font lang = "fr"> Lang Fr) </font>
 
     <font> (Click on any Data </font>
     <font onclick = "fun(this)" data-abc = "data1"> DATA1 </font>
     <font onclick = "fun(this)" data-abc = "data2"> DATA2 </font>
     <font onclick = "fun(this)" data-abc = "data3"> DATA3) </font>
     <script nonce = "nonce"> function fun(data) { alert(data.getAttribute("data-abc")); } </script>
-    
+
+    <div itemscope itemtype = "https://schema.org/Product" itemid = "https://example.com/item123">
+        <span itemprop = "name"> ItemProp1 <img itemprop = "image" src = ""/> </span>
+        <div itemprop = "offers" itemscope itemtype = "https://schema.org/Offer"> <meta itemprop = "price" content = "19.99" /> <meta itemprop = "priceCurrency" content = "USD" /> </div>          
+    </div>
+
+    <div itemscope itemtype = "https://schema.org/Product" itemid = "https://example.com/item123" itemref = "id1 id2"> </div>
+    <span itemprop = "name" id = "id1"> ItemProp1 <img itemprop = "image" src = ""/> </span>
+    <div itemprop = "offers" itemscope itemtype = "https://schema.org/Offer" id = "id2"> <meta itemprop = "price" content = "19.99" /> <meta itemprop = "priceCurrency" content = "USD" /> </div>
+
     <p id = "nonce"> Nonce </p>
     <style nonce = "nonce1"> #nonce { background-color: #8b3838; } </style>
     <script nonce = "nonce"> alert("Secure script"); </script>
@@ -359,14 +373,5 @@
         <div style = "border:1px solid black"> On </div>
         <div id = "myDiv" style = "border:1px solid black"> Off </div>
         <script> document.getElementById("myDiv").addEventListener("contextmenu", (e) => { e.preventDefault() }); </script>
-
-    <div itemscope itemid = "https://example.com/item123" itemtype="https://schema.org/Product"> abc </div>
-
-    <div itemscope itemref = "moreInfo"></div>
-    <div id="moreInfo"><span itemprop="description">A great laptop</span></div>
-    
-    <div itemscope></div> <!-- Used to define scope for microdata -->
-    
-    <div itemscope itemtype="https://schema.org/Book"><span itemprop="name">1984</span></div>
 </body>
 </html>
