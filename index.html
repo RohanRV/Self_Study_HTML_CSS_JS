@@ -40,6 +40,25 @@
 
 
 
+    <hr> <!------------------------------ FORMATTING TAGS ------------------------------>
+    <!---------------------------------------- ---------------------------------------->
+    <br> <b> Bold </b> <strong> Bold </strong>
+    <br> <i> Italics </i> <em> Italics </em> <var> Italics </var> <dfn> Italics </dfn> <cite> Italics </cite> <address> Italics </address>
+    <br> <u> Underline </u> <ins> Underline </ins>
+    <br> <strike> Strike </strike> <s> Strike </s> <del> Strike </del>
+    <br> <code> Mono </code> <kbd> Mono </kbd> <samp> Mono </samp> <tt> Mono </tt> <xmp> Mono </xmp>
+    <br> <sub> Sub </sub> <sup> Super </sup> <mark> Highlight </mark>
+    <br> <big> BIG </big> <small> small </small> <font color = "red"> Font </font> <center> Center </center>
+    <br> <q> Quote </q> <blockquote> Block </blockquote>
+    <br> <abbr> Abbreviation </abbr> <acronym> Acronym </acronym>
+    <br> <bdi> BDI </bdi> <bdo dir = "rtl"> BDO </bdo>
+    <br> <ruby> <rb> If browsers support ruby </rb> <rp> ( </rp> <rt> it will </rt> <rp> ) </rp> <rp> ( </rp> <rtc> appear like this </rtc> <rp> ) </rp> </ruby>
+    <br> <ruby> If browsers don't support ruby (it will) (appear like this) </ruby>
+
+
+
+
+
     <hr> <!------------------------------ MULTIMEDIA TAGS ------------------------------>
     <!---------------------------------------- ---------------------------------------->
     <a href = "https://www.github.com/RohanRV"> Not working in live preview, working in Live Server </a>
@@ -63,22 +82,6 @@
     <!-- in href or src we can also do #id where id is id attri of any tag-->
 
 
-
-
-    <hr> <!------------------------------ FORMATTING TAGS ------------------------------>
-    <!---------------------------------------- ---------------------------------------->
-    <br> <b> Bold </b> <strong> Bold </strong>
-    <br> <i> Italics </i> <em> Italics </em> <var> Italics </var> <dfn> Italics </dfn> <cite> Italics </cite> <address> Italics </address>
-    <br> <u> Underline </u> <ins> Underline </ins>
-    <br> <strike> Strike </strike> <s> Strike </s> <del> Strike </del>
-    <br> <code> Mono </code> <kbd> Mono </kbd> <samp> Mono </samp> <tt> Mono </tt> <xmp> Mono </xmp>
-    <br> <sub> Sub </sub> <sup> Super </sup> <mark> Highlight </mark>
-    <br> <big> BIG </big> <small> small </small> <font color = "red"> Font </font> <center> Center </center>
-    <br> <q> Quote </q> <blockquote> Block </blockquote>
-    <br> <abbr> Abbreviation </abbr> <acronym> Acronym </acronym>
-    <br> <bdi> BDI </bdi> <bdo dir = "rtl"> BDO </bdo>
-    <br> <ruby> <rb> If browsers support ruby </rb> <rp> ( </rp> <rt> it will </rt> <rp> ) </rp> <rp> ( </rp> <rtc> appear like this </rtc> <rp> ) </rp> </ruby>
-    <br> <ruby> If browsers don't support ruby (it will) (appear like this) </ruby>
 
 
 
@@ -163,6 +166,80 @@
 
 
 
+    <hr> <!------------------------------ MATH TAGS ------------------------------>
+    <!---------------------------------------- ---------------------------------------->    
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mspace width = "1em"/>
+        <mrow> <mphantom> <mi> M </mi> </mphantom> <mfrac> <mrow> <mi> MFrac </mi> </mrow> <mrow> <mn> MFrac </mn> </mrow> </mfrac> </mrow>
+        <mrow> <mphantom> <mi> P </mi> </mphantom> <mo> &#x00B1; </mo> <mroot> <mi> MRoot </mi> <mi> MRoot </mi> </mroot> </mrow>
+        <mrow> <mphantom> <mi> h </mi> </mphantom> <msqrt> <msup> <mn> MSqrt </mn> <mi> MSup </mi> </msup> <msub> <mi> MSqrt </mi> <mi> MSub </mi> </msub> </msqrt> </mrow>
+        <mrow> <mphantom> <mi> a </mi> </mphantom> <msubsup> <mi> MSubSup </mi> <mi> MSubSup </mi> <mi> MSubSup </mi> </msubsup> </mrow>
+    </math>
+    <math>
+        <mphantom> <mi> n </mi> </mphantom> <munder> <mi> MUnder </mi> <mtext> MUnder </mtext> </munder> <mover> <mtext> MOver </mtext> <mi> MOver </mi> </mover>
+        <mphantom> <mi> t </mi> </mphantom> <munderover> <mi> MUnderOver </mi> <mrow> <mi> MUnderOver </mi> </mrow> <mn> MUnderOver </mn> </munderover>
+        <mphantom> <mi> o </mi> </mphantom> <mstyle mathcolor = "red" mathsize = "1.5em"> <mi> Styled </mi> </mstyle> <merror> <mtext> Error </mtext> </merror>
+        <mphantom> <mi> m </mi> </mphantom> <mpadded height = "+3em" depth = "+1em" width = "+3em" lspace = "-1em"> <mi> Padded </mi> </mpadded>
+        <mphantom> <mi> . </mi> </mphantom> <menclose notation = "circle box"> <mi> MEnclose </mi> </menclose>
+    </math>
+    <math>
+        <mtable> <!-- Math Table Row (MTR) Math Table Data (MTD) -->
+            <mlabeledtr> <mtd> <mi> MLabeledTR </mi> </mtd> <mtd> <mi> MLabeledTR </mi> </mtd> </mlabeledtr>
+            <mtr> <mtd> <mtext> MTD1 </mtext> </mtd> <mtd> <mtext> MTD1 </mtext> </mtd> </mtr>
+            <mtr> <mtd> <mtext> MTD2 </mtext> </mtd> <mtd> <mtext> MTD2 </mtext> </mtd> </mtr>
+            <mtr> <maligngroup/> <mtd> <mtext> MTD. </mtext> <malignmark/> <mtext> 3 </mtext> </mtd> <mtd> <mi> MTD3 </mi> </mtd> </mtr>
+            <mtr> <maligngroup/> <mtd> <mtext> M. </mtext> <malignmark/> <mtext> TD4 </mtext> </mtd> <mtd> <mtext> MTD4 </mtext> </mtd> </mtr>
+        </mtable>
+      </math>
+
+      <math xmlns = "http://www.w3.org/1998/Math/MathML" display = "block">
+            <mrow> <mglyph alt = "smile" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_smiley_face.svg/32px-Flat_smiley_face.svg.png" width = "20px" height = "20px"/> </mrow>
+            <mglyph alt = "√" src = "https://upload.wikimedia.org/wikipedia/commons/5/58/Square_root_symbol.svg" width = "12px" height = "12px" />
+            <ms lquote = "%" rquote = "$" mathvariant = "fraktur" mathbackground = "aqua"> "%MS$" </ms>
+
+            <annotation encoding = "application/x-tex">
+                x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+            </annotation>
+            <annotation-xml encoding = "MathML-Content">
+                <apply xmlns = "http://www.w3.org/1998/Math/MathML">
+                    <eq/>
+                    <ci> x </ci>
+                    <apply>
+                        <plusminus/>
+                        <apply> <divide/> <apply> <minus/> <ci> b </ci> </apply> <apply> <times/> <cn> 2 </cn> <ci> a </ci> </apply> </apply>
+                        <apply> <root/> <apply> <minus/> <apply> <power/> <ci> b </ci> <cn> 2 </cn> </apply> <apply> <times/> <cn> 4 </cn> <ci> a </ci> <ci> c </ci> </apply> </apply> </apply>
+                    </apply>
+                </apply>
+            </annotation-xml>
+    </math>
+
+
+
+
+    
+    <hr> <!------------------------------ NON-SEMANTIC LAYOUT TAGS ------------------------------>
+    <!---------------------------------------- ---------------------------------------->
+    <div> Rohan's Div </div>
+    <span> Rohan's Span </span>
+
+
+
+
+
+    <hr> <!------------------------------ SEMANTIC SECTIONAL TAGS ------------------------------>
+    <!---------------------------------------- ---------------------------------------->
+    <header> Rohan's Header </header>
+    <nav> Rohan's Nav </nav>
+    <main> Rohan's Main </main>
+    <section> Rohan's Section </section>
+    <article> Rohan's Article </article>
+    <aside> Rohan's Aside </aside>
+    <footer> Rohan's Footer </footer>  
+
+
+
+
+
     <hr> <!------------------------------ DRAWING TAGS ------------------------------>
     <!---------------------------------------- ---------------------------------------->
     <canvas height = "40" width = "40" id = "1"> not supported </canvas>
@@ -185,29 +262,6 @@
     <marquee> Marquee </marquee>
     <progress value = "50" max = 100> Progress </progress>
     <meter value = "08", min = "00", max = "10" high = "07" low = "03"> Meter </meter>
-    
-    
-
-
-    
-    <hr> <!------------------------------ NON-SEMANTIC LAYOUT TAGS ------------------------------>
-    <!---------------------------------------- ---------------------------------------->
-    <div> Rohan's Div </div>
-    <span> Rohan's Span </span>
-
-
-
-
-
-    <hr> <!------------------------------ SEMANTIC SECTIONAL TAGS ------------------------------>
-    <!---------------------------------------- ---------------------------------------->
-    <header> Rohan's Header </header>
-    <nav> Rohan's Nav </nav>
-    <main> Rohan's Main </main>
-    <section> Rohan's Section </section>
-    <article> Rohan's Article </article>
-    <aside> Rohan's Aside </aside>
-    <footer> Rohan's Footer </footer>
 
 
 
@@ -222,39 +276,7 @@
     <embed> Embed </embed>
     <noembed> No Embed </noembed>
 
-    
 
-
-
-    <hr> <!------------------------------ MATH TAGS ------------------------------>
-    <!---------------------------------------- ---------------------------------------->    
-    <math xmlns="http://www.w3.org/1998/Math/MathML">
-        <mspace width = "1em"/>
-        <mrow> <mphantom> <mi> M </mi> </mphantom> <mfrac> <mrow> <mi> MFrac </mi> </mrow> <mrow> <mn> MFrac </mn> </mrow> </mfrac> </mrow>
-        <mrow> <mphantom> <mi> P </mi> </mphantom> <mo> &#x00B1; </mo> <mroot> <mi> MRoot </mi> <mi> MRoot </mi> </mroot> </mrow>
-        <mrow> <mphantom> <mi> h </mi> </mphantom> <msqrt> <msup> <mn> MSqrt </mn> <mi> MSup </mi> </msup> <msub> <mi> MSqrt </mi> <mi> MSub </mi> </msub> </msqrt> </mrow>
-        <mrow> <mphantom> <mi> a </mi> </mphantom> <msubsup> <mi> MSubSup </mi> <mi> MSubSup </mi> <mi> MSubSup </mi> </msubsup> </mrow>
-    </math>
-    <math>
-        <mphantom> <mi> n </mi> </mphantom> <munder> <mi> MUnder </mi> <mtext> MUnder </mtext> </munder> <mover> <mtext> MOver </mtext> <mi> MOver </mi> </mover>
-        <mphantom> <mi> t </mi> </mphantom> <munderover> <mi> MUnderOver </mi> <mrow> <mi> MUnderOver </mi> </mrow> <mn> MUnderOver </mn> </munderover>
-        <mphantom> <mi> o </mi> </mphantom> <mstyle mathcolor = "red" mathsize = "1.5em"> <mi> Styled </mi> </mstyle> <merror> <mtext> Error </mtext> </merror>
-        <mphantom> <mi> m </mi> </mphantom> <mpadded height = "+3em" depth = "+1em" width = "+3em" lspace = "-1em"> <mi> Padded </mi> </mpadded>
-        <mphantom> <mi> . </mi> </mphantom> <menclose notation = "circle box"> <mi> MEnclose </mi> </menclose>
-    </math>
-    <math>
-        <mtable> <!-- Math Table Row (MTR) Math Table Data (MTD) -->
-            <mlabeledtr> <mtd> <mi> MLabeledTR </mi> </mtd> <mtd> <mi> MLabeledTR </mi> </mtd> </mlabeledtr>
-            <mtr> <mtd> <mtext> MTD1 </mtext> </mtd> <mtd> <mtext> MTD1 </mtext> </mtd> </mtr>
-            <mtr> <mtd> <mtext> MTD2 </mtext> </mtd> <mtd> <mtext> MTD2 </mtext> </mtd> </mtr>
-            <mtr> <maligngroup/> <mtd> <mtext> MT </mtext> <malignmark/> <mtext> D3 </mtext> </mtd> <mtd> <mi> MTD3 </mi> </mtd> </mtr>
-            <mtr> <maligngroup/> <mtd> <malignmark/> <mtext> MTD4 </mtext> </mtd> <mtd> <mtext> MTD4 </mtext> </mtd> </mtr>
-        </mtable>
-
-          <mglyph alt="smile" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_smiley_face.svg/32px-Flat_smiley_face.svg.png" width="20px" height="20px"/>
-      </math>
-
-      
 
 
 

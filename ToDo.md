@@ -189,9 +189,9 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 # 22/JUL/2025 TUE:-
 - ~~ remaining DOM attributes
-- ~~ remaining MathML tags
+- ~~ remaining MathML tags ~~
 - ~~ all tags in index.html all attributes explore
-- ~~ event attributes implement
+- ~~ event attributes implement ~~
 - ~~ Apna College DOM attributes tasks
 - ~~ MDN DOM list study
 - ~~ JS event listener ~~
