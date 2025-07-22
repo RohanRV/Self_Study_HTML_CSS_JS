@@ -141,52 +141,68 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 # 15/JUL/2025 TUE:-
-- DSA draw.io
-- Learn HTML Apna College
-- configure VS Code, live preview
-- configure Git & GitHub
-- Learn BootStrap unknown YouTuber
-- Learn CSS Bro Code
-- Learn JS Mosh
-- h, p, pre, multimedia, formattings, lists, tables, forms
+- ~~ DSA draw.io ~~
+- ~~ Learn HTML Apna College ~~
+- ~~ configure VS Code, live preview ~~
+- ~~ configure Git & GitHub ~~
+- ~~ Learn BootStrap unknown YouTuber ~~
+- ~~ Learn CSS Bro Code ~~
+- ~~ Learn JS Mosh ~~
+- ~~ h, p, pre, multimedia, formattings, lists, tables, forms ~~
+- ~~ Rishika Starbucks ~~
 
 # 16/JUL/2025 WED:-
-- HTML tags A-Z
-- Learn Node.js Mosh
+- ~~ HTML tags A-Z ~~
+- ~~ Learn Node.js Mosh ~~
 
 # 17/JUL/2025 THU:-
-- LeetCode SQL 50 (10 out of 50)
-- bdo, bdi, map, spacer, param, keygen, track, isindex
+- ~~ LeetCode SQL 50 (10 out of 50) ~~
+- ~~ bdo, bdi, map, spacer, param, keygen, track, isindex ~~
 
 # 18/JUL/2025 FRI:-
-- tags from MDN
-- fencedframe timewaste
-- blue tokai, premsons
-- MathML
+- ~~ tags from MDN ~~
+- ~~ fencedframe timewaste ~~
+- ~~ blue tokai, premsons ~~
+- ~~ MathML ~~
 
 # 19/JUL/2025 SAT:-
-- global attributes
-- front end vs back end study
-- Subiksha
-- enterkeyhint, inputmode timewaste
+- ~~ global attributes ~~
+- ~~ front end vs back end study ~~
+- ~~ Subiksha ~~
+- ~~ enterkeyhint, inputmode timewaste ~~
 
 # 20/JUL/2025 SUN:-
-- shadow dom web components study
-- contextmenu study
-- microdata study
-- nonce implement
-- VS Code extensions
+- ~~ shadow dom web components study ~~
+- ~~ contextmenu study ~~
+- ~~ microdata study ~~
+- ~~ nonce implement ~~
+- ~~ VS Code extensions ~~
 
 # 21/JUL/2025 MON:-
-- microdata implement
-- microdata timewaste
-- schema.org
-- event attributes
-- DOM attributes
-- ISKCON
+- ~~ microdata implement ~~
+- ~~ microdata timewaste ~~
+- ~~ schema.org ~~
+- ~~ event attributes ~~
+- ~~ DOM attributes ~~
+- ~~ ISKCON ~~
+- ~~ G4G JS async await promise then arrownotation~~
 
 # 22/JUL/2025 TUE:-
-- remaining DOM attributes
-- all tags in index.html all attributes explore
-- remaining MathML tags
-- ruby, applet
+- ~~ remaining DOM attributes
+- ~~ remaining MathML tags
+- ~~ all tags in index.html all attributes explore
+- ~~ event attributes implement
+- ~~ Apna College DOM attributes tasks
+- ~~ MDN DOM list study
+- ~~ JS event listener ~~
+- ~~ Web components shadow DOM implement
+- ~~ part, contextmenu, anchor, role implement
+
+- ~~ Markdown implement ~~
+- ~~ JS functions call vs pass ~~
+- ~~ Bash Linux & Mac
+- ~~ VS Code Settings
+- ~~ ruby, applet ~~
+
+# 23/JUL/2025 WED:-
+- ~~ Git commands revise

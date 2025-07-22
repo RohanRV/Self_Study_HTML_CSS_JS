@@ -5,11 +5,12 @@
 <head>
     <meta charset = "UTF-8" http-equiv = "X-UA-Compatible" content = "IE=edge" name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <title> Rohan's Website </title>
-    <base href = "Rohans"/>?
+    <base href = "Rohans"/>
     <style nonce = "nonce"> hr {height: 5px; background: #000;} </style>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src = "index.js" defer> </script>
 </head>
 <body>
-</body>
 
 
 
@@ -29,7 +30,7 @@
     <h5> Heading #5
     <h6> Heading #6
     <p> Paragraph (this converts into h6 bcos of no closing tag)
-
+    </p></h6></h5>
     <p> p tag    trims    whitespaces </p>
     <pre> pre formatted tag   doesn't    trim </pre>
     <listing> Listing   acts as   Pre </listing>
@@ -76,8 +77,8 @@
     <br> <q> Quote </q> <blockquote> Block </blockquote>
     <br> <abbr> Abbreviation </abbr> <acronym> Acronym </acronym>
     <br> <bdi> BDI </bdi> <bdo dir = "rtl"> BDO </bdo>
-
-
+    <br> <ruby> <rb> If browsers support ruby </rb> <rp> ( </rp> <rt> it will </rt> <rp> ) </rp> <rp> ( </rp> <rtc> appear like this </rtc> <rp> ) </rp> </ruby>
+    <br> <ruby> If browsers don't support ruby (it will) (appear like this) </ruby>
 
 
 
@@ -221,18 +222,7 @@
     <embed> Embed </embed>
     <noembed> No Embed </noembed>
 
-
-
-
-
-    <hr> <!------------------------------ CODING TAGS ------------------------------>
-    <!---------------------------------------- ---------------------------------------->
-    <ruby> Ruby </ruby>
-    <rp> Parentheses </rp>
-    <rt> Text </rt>
-    <applet> Applet </applet>
     
-
 
 
 
@@ -286,6 +276,7 @@
     <blink> Blink </blink>
     <search> Search </search>
     <content> Content </content>
+    <applet code = "java.class" width = "50", height = "50"> Applet </applet>
 
 
 
@@ -303,7 +294,7 @@
     <a draggable = "true" dropzone="copy"> (Draggable sans href) </a>
     <s hidden = "true"> (Hidden) </s>
     <img src = "Rohans/book.jpg" width = "30" popover id = "popover">
-        <button popovertarget = "popover"> (Popover Target) </button>
+        <button popovertarget = "popover" id = "gg"> (Popover Target) </button>
         <button popovertarget = "popover" popovertargetaction = "show"> (Popover Target Action) </button>
     <sub spellcheck = "true" contenteditable = "true"> (Clik heree fur Spel Chec) </sub>
     <sup dir = "rtl"> (Dir) </sup>
