@@ -138,7 +138,23 @@ This line is only separated by a single newline, so it's a separate line in the 
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-
+# IDES
+- HTML - VS Code
+- CSS - VS Code
+- JavaScript - VS Code
+- Java - NetBeans
+- Python - PyCharm
+- R - R Studio
+- Ruby - Atom
+- VBA - Excel
+- MATLAB - MATLAB
+- PHP - Sublime
+- JSON - UltraEdit
+- C - Eclipse
+- C++ - Eclipse
+- C# - ?
+- Swift - XCode
+- COBOL - ?
 
 # 15/JUL/2025 TUE:-
 - ~~ DSA draw.io ~~
@@ -188,21 +204,58 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 - ~~ G4G JS async await promise then arrownotation~~
 
 # 22/JUL/2025 TUE:-
-- ~~ remaining DOM attributes
 - ~~ remaining MathML tags ~~
-- ~~ all tags in index.html all attributes explore
 - ~~ event attributes implement ~~
-- ~~ Apna College DOM attributes tasks
-- ~~ MDN DOM list study
 - ~~ JS event listener ~~
-- ~~ Web components shadow DOM implement
-- ~~ part, contextmenu, anchor, role implement
+- ~~ CSS basics implement ~~
 
 - ~~ Markdown implement ~~
 - ~~ JS functions call vs pass ~~
-- ~~ Bash Linux & Mac
-- ~~ VS Code Settings
 - ~~ ruby, applet ~~
+- ~~ Colours ~~
+- ~~ R study ~~
 
 # 23/JUL/2025 WED:-
+- ~~ remaining CSS implementation (partial) ~~
+- ~~ MacBook apps ~~
+- ~~ MacBook files ~~
+- ~~ R Studio setup, Git setup, GPG setup ~~
+
+# 24/JUL/2025 THU:-
+- ~~ Understanding datasets in R and writing one-liners about them ~~
+- ~~ Learning about git rebase ~~
+
+# 25/JUL/2025 FRI:-
+- ~~ Apache NetBeans redownload and reconfigure ~~
+- ~~ Apache NetBeans git issue ~~
+- ~~ Apache user profile directory issue resolve ~~
+- ~~ COBOL study upto Conditionals ~~
+
+- ~~ Learnt git config ~~
+- ~~ LeetCode SQL 50 (5 out of rest 40 of 50 so now 35 remain) ~~
+- ~~ Open and configure XCode, Brackets, PheonixCode ~~
+
+# 26/JUL/2025 SAT:-
+- ~~ Learnt various R functions like print() head(), tail(), data(), names(), dim(), str(), summary(). View(), ls() rm(), pacman::p_load(pacman, psych), describe() ~~
+- ~~ remaining R study upto EnteringData.R ~~
+- ~~ Successfully uninstalled Adobe Creative Cloud ~~
+- ~~ COBOL study Iteraitonals to Subroutines ~~
+
+# 27/JUL/2025 SUN:-
+- ~~ remaining R study from ImportingData.R to TidyVerse.R ~~
+- ~~ combining all R files into 1 ~~
+- ~~ Statistics learn
+- ~~ remaining DOM attributes
+- ~~ Web components shadow DOM implement
+- ~~ part, contextmenu, anchor, role implement
+- ~~ Apna College DOM attributes tasks
+- ~~ MDN DOM list study
+- ~~ all tags in index.html all attributes explore
+- ~~ Perform pending commits in VS Code
+
 - ~~ Git commands revise
+- ~~ Regular Expressions revise
+- ~~ Bash Linux & Mac
+- ~~ VS Code Settings
+- ~~ R Studio settings
+- ~~ MacBook apps
